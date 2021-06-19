@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Payment|Paypal</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://www.paypal.com/sdk/js?client-id=AVS-pB6P3II36pI73Wj8Sz0aQy0YUrv8HI4-riKq2m7POhw0mTT-vJ1MEiSBaseCRTHMw9N52H0QeSBH"></script>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDhbyNWe06JgO9D7IkYyJAx3nLapJbtzhs",
+    authDomain: "angular-payment.firebaseapp.com",
+    projectId: "angular-payment",
+    storageBucket: "angular-payment.appspot.com",
+    messagingSenderId: "889552951981",
+    appId: "1:889552951981:web:b3d003c6e8fc071aa14424",
+    measurementId: "G-VELKYPMZM5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</html>

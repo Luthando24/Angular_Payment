@@ -1,0 +1,39 @@
+#myPaypalButtons{
+    margin-left: 26%;
+    padding-top: 18%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh
+  }
+  h1{
+    color: #484848;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 39px;
+    cursor: pointer
+    
+  }
+  h1 span{
+    transition: .5s linear
+  }
+  h1:hover span:nth-child(1){
+    margin-right: 5px
+  }
+  h1:hover span:nth-child(1):after{
+    content: "'";
+  }
+  h1:hover span:nth-child(2){
+    margin-left: 30px
+  }
+  h1:hover span{
+    color: rgb(29, 180, 190);
+    text-shadow: 0 0 10px rgb(255, 255, 255),         
+  }
+ 
